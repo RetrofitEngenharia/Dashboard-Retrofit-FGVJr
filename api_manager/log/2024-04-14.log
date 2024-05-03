@@ -1,0 +1,74 @@
+2024-04-14 01:00:21,782 - INFO -  main.py update
+2024-04-14 01:00:21,782 - INFO - Starting ApiManager
+2024-04-14 01:00:21,790 - DEBUG - URL being requested: GET https://www.googleapis.com/drive/v3/files?fields=files%28id%2C+name%2C+parents%29%2C+nextPageToken%2C+incompleteSearch&q=mimeType%3D%27application%2Fvnd.google-apps.spreadsheet%27&pageSize=500&orderBy=recency&alt=json
+2024-04-14 01:00:21,816 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2024-04-14 01:00:22,369 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?includeGridData=false&fields=%2A&alt=json
+2024-04-14 01:00:25,865 - INFO - Starting update
+2024-04-14 01:00:25,865 - INFO - Starting plano_financeiro
+2024-04-14 01:00:25,867 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:00:26,275 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/v1/payment-categories HTTP/1.1" 200 None
+2024-04-14 01:00:26,331 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:00:27,042 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:00:27,234 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27plano_financeiro%27%21A1%3AC2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:00:27,484 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:00:28,007 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27plano_financeiro%27%21A2%3AC202?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:00:28,971 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:00:29,916 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_pagar%27?majorDimension=ROWS&valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=SERIAL_NUMBER&alt=json
+2024-04-14 01:00:30,538 - INFO - Starting contas_a_pagar
+2024-04-14 01:00:30,540 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:00:31,515 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/bulk-data/v1/outcome?startDate=2024-03-01&endDate=2024-04-30&selectionType=P&correctionIndexerId=0&correctionDate=2024-03-01 HTTP/1.1" 200 None
+2024-04-14 01:01:18,220 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27plano_financeiro%27?majorDimension=ROWS&valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=SERIAL_NUMBER&alt=json
+2024-04-14 01:01:18,589 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:18,900 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:19,089 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_pagar%27%21A1%3AG2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:19,350 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:19,543 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_pagar%27%21A2%3AG8335?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:21,071 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_pagar%27%21A8335%3AG16668?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:22,478 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_pagar%27%21A16668%3AG19297?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:23,068 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:23,739 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber%27?majorDimension=ROWS&valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=SERIAL_NUMBER&alt=json
+2024-04-14 01:01:23,930 - INFO - Starting contas_a_receber
+2024-04-14 01:01:23,931 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:01:24,492 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/bulk-data/v1/income?startDate=2024-03-01&endDate=2024-04-30&selectionType=P HTTP/1.1" 200 None
+2024-04-14 01:01:24,563 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:24,854 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:25,055 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber%27%21A1%3AE2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:25,288 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:25,474 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber%27%21A2%3AE670?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:25,797 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:26,119 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber_vencimento%27?majorDimension=ROWS&valueRenderOption=UNFORMATTED_VALUE&dateTimeRenderOption=SERIAL_NUMBER&alt=json
+2024-04-14 01:01:26,301 - INFO - Starting contas_a_receber_vencimento
+2024-04-14 01:01:26,302 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:01:26,732 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/bulk-data/v1/income?startDate=2024-03-01&endDate=2025-10-31&selectionType=D HTTP/1.1" 200 None
+2024-04-14 01:01:26,987 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:27,278 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:27,492 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber_vencimento%27%21A1%3AE2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:27,689 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:27,824 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27contas_a_receber_vencimento%27%21A2%3AE714?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:28,125 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:28,805 - INFO - Starting orcamento_empresarial
+2024-04-14 01:01:28,807 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:01:29,321 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/bulk-data/v1/business-budget?startDate=2000-01-01&endDate=2025-10-31 HTTP/1.1" 200 None
+2024-04-14 01:01:38,408 - INFO - Starting correlate_projects_description
+2024-04-14 01:01:38,421 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:38,721 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:38,927 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27projectId_description_non_related%27%21A1%3AD2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:39,161 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:39,332 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27projectId_description_non_related%27%21A2%3AD84?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:39,570 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:39,955 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:40,250 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:40,431 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27orcamento_empresarial%27%21A1%3AI2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:40,663 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:40,847 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27orcamento_empresarial%27%21A2%3AI1252?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:41,239 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:41,679 - INFO - Starting orcamento_planejado
+2024-04-14 01:01:41,681 - DEBUG - Starting new HTTPS connection (1): api.sienge.com.br:443
+2024-04-14 01:01:42,076 - DEBUG - https://api.sienge.com.br:443 "GET /retrofit/public/api/bulk-data/v1/building-cost-estimation-items HTTP/1.1" 200 None
+2024-04-14 01:01:56,886 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:57,198 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:57,385 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27orcamento_planejado%27%21A1%3AD2?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:57,625 - DEBUG - URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4?fields=properties%2Csheets%28properties%2CprotectedRanges%2Cmerges%2CconditionalFormats%2CfilterViews%29%2CspreadsheetId%2CnamedRanges&includeGridData=false&alt=json
+2024-04-14 01:01:57,797 - DEBUG - URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4/values/%27orcamento_planejado%27%21A2%3AD133?valueInputOption=USER_ENTERED&alt=json
+2024-04-14 01:01:58,115 - DEBUG - URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/1PMEixuKquGtJE2oyvCCLt96LFl5yqVfwAOMWcTz-FU4:batchUpdate?fields=%2A&alt=json
+2024-04-14 01:01:58,897 - INFO - Finished update
